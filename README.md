@@ -10,13 +10,13 @@ A Prettier plugin that formats EJS templates and automatically sorts TailwindCSS
 ## Installation
 
 ```bash
-npm install --save-dev prettier prettier-plugin-tailwindcss
+npm install --save-dev prettier-plugin-ejs-tailwindcss
 ```
 
-To use this plugin, ensure you have `prettier-plugin-tailwindcss` installed:
+To use this plugin, ensure you have `prettier` and `prettier-plugin-tailwindcss` installed in your project:
 
 ```bash
-npm install prettier-plugin-tailwindcss --save-dev
+npm install --save-dev prettier prettier-plugin-tailwindcss
 ```
 
 ## Usage

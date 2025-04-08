@@ -39,7 +39,7 @@ async function formatTailwindClasses(content, options) {
     const formatted = await prettierFormat(`<el class="${tempClass}" />`, {
       ...options,
       parser: 'html',
-      plugins: ['prettier-plugin-tailwindcss'],
+      plugins: [require.resolve('prettier-plugin-tailwindcss')],
     });
 
     let sortedClass = formatted.match(/class="([^"]+)"/)?.[1] ?? tempClass;
