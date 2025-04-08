@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-ejs-tailwindcss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Prettier plugin for Embedded JavaScript Templating (EJS) with Tailwindcss class ordering support.",
   "keywords": [
     "prettier",
